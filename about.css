@@ -1,0 +1,169 @@
+.main_header{
+  background-color: #101010;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header_title{
+  color:hsl(341, 100%, 49%);
+  float: left;
+  font-size: 300%;
+  font-weight: 500%;
+  margin-left: 20px;
+  text-decoration: underline;
+  letter-spacing: 3pt;
+}
+
+.element:hover{
+  background-color:#F9004D;
+}
+
+.element:visited{
+  color:#fff;
+}
+
+.element{
+  color:#fff;
+  padding: 10px;
+  margin-left: 4px;
+  float:left;
+}
+
+.home{
+  margin-left: 650px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+*{
+    font-family: 'Zen Loop', 'Consolas', 'Arial';
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+img{
+    position:absolute;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: #ffffff;
+    border-color: #000;
+    margin-left: 1000px;
+    margin-right: 0px;
+    margin-top: 60px;
+    z-index: 0;
+}
+
+h1.Name{
+    text-transform: uppercase;
+    font-size: 400%;
+    text-decoration: underline;
+    text-align:left;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: #F9004D;
+    border: #ffffff;
+}
+
+.Details{
+    margin-left: 300px;
+    margin-left : 50px;
+    color: rgba(198,201,216,.75);
+    text-align: left;
+    font-size: 150%;
+}
+
+.Para,.Text{
+    margin-left: 20px;
+}
+
+.heading{
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+.list{
+    font-size: 150%;
+    border-style: dotted dashed solid double;
+    color: #ffffff;
+}
+
+h2.Para{
+    font-size: 300%;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.Text{
+    font-size: 150%;
+    color: rgba(198,201,216,.75);
+}
+
+h3{
+    font-size: 150%;
+    color: #ffffff;
+}
+
+.oddodd{
+  font-weight: 900;
+}
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column1,.column2 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin-left: +55px;
+  }
+  
+  .column2{
+      margin-left: 400px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 200%;
+    /* border: 1px solid #ddd; */
+  }
+
+  .row1{
+    text-decoration: underline;
+}
+  
+  th, td {
+    text-align: center;
+    font-size: 120%;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #000000;
+    color:#fff;
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgba(198,201,216,.75);
+    color:#000;
+    font-weight: +500%;
+  }
+
+  .qwer{
+    color: #F9004D;
+    text-decoration: underline;
+  }
+  
+
+  
